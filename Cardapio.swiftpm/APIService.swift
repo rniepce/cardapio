@@ -7,7 +7,7 @@ class APIService: ObservableObject {
     static let shared = APIService()
     
     // ⚠️ CHANGE THIS to your Railway URL after deploy
-    private let baseURL = "https://YOUR-SERVER.up.railway.app"
+    private let baseURL = "https://cardapio-production-606d.up.railway.app"
     
     private let decoder: JSONDecoder = {
         let d = JSONDecoder()
